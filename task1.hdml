@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Обо мне</h1>
+    <img src="фото ОЗ1_1.gif" height="200px">
+
+    <p> Привет! Меня зовут Екатерина, 
+        по образованию я инженер, сейчас прохожу обучение на курсе веб-дизайна 
+        и уже создаю свои первые сайты.</p>
+
+    <h3>Мое образование:</h3>
+    
+    <table>
+        <tr>
+            <td>Год</td>
+            <td>Учебное заведение</td>
+            <td>Квалификация</td>
+            <td>Специальность</td>
+        </tr>
+        <tr>
+            <td>1997-2003</td>
+            <td>ГОУВПО МИКХиС</td>
+            <td>Инженер</td>
+            <td>Производство строительных материалов, изделий и конструкций</td>
+        </tr>
+    </table>
+
+    <h3>Мои навыки:</h3>
+    <ul>
+        <li>HTML</li>
+        <li>Основы CSS</li>
+        <li>Работа с хостингом</li>
+        <li>Работа в VS Code</li>
+    </ul>
+    <h4>Уровень владения:</h4>
+    <table>
+        <ol>
+        <li>HTML, CSS - начальный</li>
+        <li>JavaScript - планирую изучать</li>
+        </ol>
+    </table>
+
+    <h3>Мои проекты:</h3>
+    <p>Мой первый сайт, созданный на курсе</p>
+    <h5>Сайт-визитка</h5>
+        <a href="https://katrin0702.github.io/praktika1/">Посмотреть проект</a>
+
+    <p>Мой второй сайт, состоящий из трех файлов с новигационным меню</p>
+        <a href="https://katrin0702.github.io/praktika2/">Посмотреть проект</a>
+
+    <h3>Форма обратной связи</h3>
+    <form action="#" method="post">
+        <label for="usser_name">Введите имя:</label> <br>
+        <input type="text" name="name" id="usser_name" placeholder="Иван"> <br>
+        <input type="email" name="email" id="usser_email" placeholder="Введите почту"> <br>
+        <input type="password" name="password" placeholder="Введите пароль"> <br>
+
+        <label for="user_city">Введите город проживания:</label> <br>
+        <select name="city" id="user_city">
+            <option value="msk">Мoсква</option>
+            <option value="spb">Санкт-Петербург</option>
+        </select> <br>
+        <input type="submit" value="отправка данных"> <br>
+
+        <p>Сайт размещен на <a href="https://docs.github.com/ru/pages">бесплатном хостинге</a> Домен: сайт.ру</p>
+
+    
+       
+
+    
+</body>
+</html>
